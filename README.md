@@ -1,5 +1,6 @@
 # _nix-aura
 A porting project of the aura-2 project into *nix-like OSs.
+- Original source: https://github.com/elfinlazz/aura-2.git
 
 ## Requirements
 - cmake 3.10 or higher

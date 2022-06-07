@@ -1,5 +1,3 @@
 cmake_minimum_required(VERSION 3.10)
 project(_nix-aura VERSION 0.0.1)
-FILE(GLOB SRC_C src/*.c)
-FILE(GLOB SRC_CPP src/*.cpp)
-add_library(_nix-aura ${SRC_C} ${SRC_CPP})
+add_subdirectory(ChannelServer)

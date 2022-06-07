@@ -1,0 +1,5 @@
+project(ChannelServer VERSION 0.0.1)
+FILE(GLOB SRC_C src/*.c)
+FILE(GLOB SRC_CPP src/*.cpp)
+add_executable(ChannelServer ${SRC_C} ${SRC_CPP})
+target_include_directories(ChannelServer PUBLIC include)

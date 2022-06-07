@@ -1,2 +1,19 @@
 # _nix-aura
-porting project of aura-2 to _nix systems
+A porting project of the aura-2 project into *nix-like OSs.
+
+## Requirements
+- cmake 3.10 or higher
+- C/C++ compiler (C99/C++17)
+- pthreads
+- gcrypt
+
+## Installation
+```
+mkdir build;
+cd build;
+cmake ../ ;
+make
+```
+
+## License
+GPL v3.0

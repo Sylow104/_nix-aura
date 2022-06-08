@@ -1,0 +1,5 @@
+project(Shared VERSION 0.0.1)
+FILE(GLOB_RECURSE SRC_C src/*.c)
+FILE(GLOB_RECURSE SRC_CPP src/*.cpp)
+add_library(Shared ${SRC_C} ${SRC_CPP})
+target_include_directories(Shared PUBLIC include)
